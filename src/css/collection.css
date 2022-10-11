@@ -1,0 +1,16 @@
+#collection-img {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 800px) {
+  #collection-img {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 800px) {
+  .width-responsive {
+    width: 100%;
+  }
+}

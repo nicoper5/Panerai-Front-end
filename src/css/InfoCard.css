@@ -1,0 +1,118 @@
+.discover-more-btn {
+  background-color: black;
+  border-style: solid;
+  border-radius: 0%;
+  border-color: rgb(241, 241, 241);
+  border-width: 0.08rem;
+  font-weight: bold;
+  font-size: 0.8rem;
+  height: 3rem;
+  width: 10rem;
+  margin-left: 20%;
+}
+
+.discover-more-btn:hover {
+  border-color: white;
+  border-width: 0.1rem;
+}
+
+.container-info {
+  width: 1780px;
+}
+
+.model-info {
+  margin-top: 35%;
+  margin-left: 20%;
+  font-size: 1rem;
+}
+.picture-card {
+  background-image: url("../Images/Carousel/Luminor_Carousel/Luna_Rossa.jpeg");
+  background-repeat: no-repeat;
+  background-size: 70rem;
+  height: 38rem;
+  background-position: -4.2rem;
+  max-width: 1053px;
+}
+
+.discover-more-btn-white {
+  background-color: white;
+  border-style: solid;
+  border-radius: 0%;
+  border-color: black;
+  border-width: 0.08rem;
+  font-weight: bold;
+  font-size: 0.8rem;
+  height: 3rem;
+  width: 10rem;
+  margin-left: 20%;
+}
+
+.discover-more-btn-white:hover {
+  border-color: black;
+  border-width: 0.1rem;
+}
+
+.picture-card-white {
+  background-image: url("../Images/Carousel/Sumersible_Carousel/Submersible_Orange.jpeg");
+  background-repeat: no-repeat;
+  background-size: 70rem;
+  height: 38rem;
+  background-position: -4rem;
+}
+.white-background {
+  max-width: 746px;
+}
+
+#luna-rosa {
+  background-color: black;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+}
+
+#Orange {
+  width: 60%;
+}
+#img-watch {
+  width: 60%;
+}
+
+#card-black {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 800px) {
+  #card-black {
+    flex-direction: column;
+  }
+  #luna-rosa {
+    width: 100%;
+    display: none;
+  }
+  #img-watch {
+    width: 100%;
+  }
+}
+
+#card-white {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 800px) {
+  #card-white {
+    flex-direction: column;
+  }
+  #orange {
+    width: 100%;
+    display: none;
+  }
+  #img-watch {
+    width: 100%;
+  }
+}
+ .submersible {
+  margin-left: 10%;
+  margin-top: 10%;
+ }

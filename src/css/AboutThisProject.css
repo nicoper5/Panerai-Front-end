@@ -1,0 +1,181 @@
+.meet-the-team {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-inline: 15%;
+}
+
+.about-titles {
+  font-size: 3.3rem;
+  padding-left: 80px;
+  padding-right: 80px;
+  font-family: "Paytone One", sans-serif;
+}
+
+.about-text {
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 1.2rem;
+}
+
+.team-photos {
+  width: 12em;
+}
+
+.team-text {
+  font-size: 1.2rem;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.team-name {
+  margin-top: 10px;
+  margin-bottom: -2px;
+  font-weight: bold;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+}
+
+.what-is-background {
+  background-image: url("../Images/Carousel/Luminor_Carousel/luminor1950.webp");
+  background-repeat: no-repeat;
+  background-size: 120rem;
+  height: 32rem;
+  max-width: 2153px;
+  background-position: 10%;
+}
+
+.what-is-title {
+  position: relative;
+  top: 40%;
+  color: black;
+}
+
+.what-is-text {
+  padding: 8%;
+  padding-top: 10%;
+  background-color: rgb(232, 232, 232);
+}
+
+.planning-title {
+  position: relative;
+  top: 45%;
+  color: white;
+}
+.planning-background {
+  background-image: url("../Images/Carousel/Luminor_Carousel/Pam1661-stock.jpg");
+  background-repeat: no-repeat;
+  background-size: 90rem;
+  height: 38rem;
+  background-position: -12rem;
+  max-width: 1053px;
+}
+
+.planning-text {
+  padding: 8%;
+  padding-top: 10%;
+  color: white;
+  background-color: black;
+}
+
+.mer-title {
+  position: relative;
+  top: 45%;
+  color: white;
+}
+
+.mer-background {
+  background-image: url("../Images/Carousel/Luminor_Carousel/marina.jpeg");
+  background-repeat: no-repeat;
+  background-size: 90rem;
+  height: 38rem;
+  background-position: -12rem;
+  max-width: 1053px;
+}
+.mer-image {
+  filter: invert(1);
+}
+
+.views-background {
+  background-image: url("../Images/Carousel/Sumersible_Carousel/Luminor-Submersible-eLAB-ID-PAM1225-2.jpg");
+  background-repeat: no-repeat;
+  background-size: 90rem;
+  height: 40rem;
+  background-position: -12rem;
+  max-width: 1053px;
+}
+.tech-background {
+  background-image: url("../Images/Carousel/Radiomir_Carousel/Panerai-Radiomir-Eilean-Experience-Edition-PAM01244-Watch-e1650719928867.jpg");
+  background-repeat: no-repeat;
+  background-size: 90rem;
+  height: 40rem;
+  background-position: -12rem;
+  max-width: 1053px;
+  contain: content;
+}
+
+.tech-icons {
+  margin-top: 20%;
+}
+.team-background {
+  background-color: rgb(232, 232, 232);
+}
+
+.team-title {
+  margin-bottom: -0.8em;
+}
+
+.credential-button {
+  background-color: rgb(232, 232, 232);
+  border-style: solid;
+  border-radius: 0%;
+  border-color: black;
+  border-width: 0.08rem;
+  font-weight: bold;
+  font-size: 0.8rem;
+  height: 3rem;
+  width: 15rem;
+}
+
+.credential-button:hover {
+  border-color: black;
+  border-width: 0.1rem;
+}
+
+@media (max-width: 600px) {
+  .about-titles {
+    font-size: 1.8rem;
+    padding: 0%;
+  }
+  .credential-button {
+    background-color: rgb(232, 232, 232);
+    border-style: solid;
+    border-radius: 0%;
+    border-color: black;
+    border-width: 0.08rem;
+    font-weight: bold;
+    font-size: 0.8rem;
+    height: 3rem;
+    width: 10rem;
+    margin-left: 20%;
+  }
+  .planning-background {
+    background-position: 50%;
+  }
+  .mer-background {
+    background-position: 50%;
+  }
+  .tech-background {
+    background-position: 50%;
+  }
+}
+@media (max-width: 990px) {
+  .planning {
+    flex-direction: column-reverse;
+  }
+  .views-diagram {
+    flex-direction: column-reverse;
+  }
+}

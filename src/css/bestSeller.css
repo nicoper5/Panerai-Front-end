@@ -1,0 +1,8 @@
+#watch-cards:hover {
+  box-shadow: 0px 19px 9px 0px rgba(0, 0, 0, 0.1);
+}
+
+#watch-cards {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,31 @@
+.img-card {
+  width: 50px;
+}
+
+#add-another-one {
+  border: none;
+  background-color: #fff;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#quantity-input {
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#quantity-add {
+  font-weight: bold;
+  height: 30px;
+  width: 30px;
+  border: none;
+}
+
+#quantity-les {
+  font-weight: bold;
+  height: 30px;
+  width: 30px;
+  border: none;
+}

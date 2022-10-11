@@ -1,0 +1,52 @@
+.checkoutwss {
+  background-color: rgb(246, 246, 246);
+  padding: 20px;
+}
+
+.btn-checkout {
+  border: 1px solid rgb(121, 121, 121);
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.8;
+  margin-bottom: 0px;
+  padding: 12px 30px 8px;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  white-space: normal;
+  background: 0px center rgb(121, 121, 121);
+  text-decoration: none;
+  color: rgb(237, 222, 182);
+}
+.btn-checkout:hover {
+  color: #fff;
+}
+
+.checout-font {
+  font-family: "Mukta", sans-serif;
+  color: rgb(80, 80, 80);
+}
+
+.keepBuying-btn {
+  font-family: "Mukta", sans-serif;
+  font-size: 1rem;
+  border: 1px solid rgb(35, 35, 35);
+  color: rgb(35, 35, 35);
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 1.8;
+  padding: 12px 30px 8px;
+  white-space: normal;
+  text-transform: uppercase;
+}
+
+.keepBuying-btn:hover {
+  color: white;
+  background-color: rgb(35, 35, 35);
+}
+
+.total-price {
+  font-size: 0.9rem;
+}

@@ -1,0 +1,60 @@
+.img-product-card {
+  height: 300px;
+}
+.model-product-card {
+  font-size: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.serie-product-card {
+  font-size: 0.7rem;
+}
+
+.price-product-card {
+  font-size: 0.7rem;
+  margin-top: -1em;
+}
+
+.impuestos-product-card {
+  font-size: 0.7rem;
+  margin-top: -1em;
+  font-weight: bold;
+  color: rgb(81, 81, 81);
+}
+
+.bestsellers {
+  margin-top: 5%;
+  font-size: 0.9rem;
+  margin-bottom: -2%;
+}
+
+.pointer:hover {
+  cursor: pointer;
+}
+.all-products {
+  margin-top: 50px;
+  margin-bottom: 165px;
+}
+
+.card-watch-imge {
+  position: relative;
+  display: inline-block;
+}
+
+.card-watch-imge .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.card-watch-imge:hover .img-top {
+  display: inline;
+}
+
+.card-watch-imge:hover .img-back {
+  opacity: 0;
+}

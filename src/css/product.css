@@ -1,0 +1,131 @@
+.carousel-img {
+  width: 300px;
+}
+
+.product-img {
+  width: 50%;
+  padding: 20px;
+}
+
+.width-half {
+  width: 50%;
+}
+
+.picture-div {
+  padding: 170px;
+  background: hsla(0, 0%, 100%, 1);
+
+  background: radial-gradient(circle, hsla(0, 0%, 100%, 1) 1%, hsla(0, 0%, 94%, 1) 65%);
+
+  background: -moz-radial-gradient(circle, hsla(0, 0%, 100%, 1) 1%, hsla(0, 0%, 94%, 1) 65%);
+
+  background: -webkit-radial-gradient(circle, hsla(0, 0%, 100%, 1) 1%, hsla(0, 0%, 94%, 1) 65%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#F0F0F0", GradientType=1 );
+}
+
+@media (max-width: 600px) {
+  .picture-div {
+    padding: 0;
+  }
+}
+
+.background-gradiant {
+  background: hsla(0, 0%, 100%, 1);
+
+  background: radial-gradient(circle, hsla(0, 0%, 100%, 1) 1%, hsla(0, 0%, 94%, 1) 65%);
+
+  background: -moz-radial-gradient(circle, hsla(0, 0%, 100%, 1) 1%, hsla(0, 0%, 94%, 1) 65%);
+
+  background: -webkit-radial-gradient(circle, hsla(0, 0%, 100%, 1) 1%, hsla(0, 0%, 94%, 1) 65%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#F0F0F0", GradientType=1 );
+}
+
+.add-bag {
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  border: 1px solid rgb(121, 121, 121);
+  cursor: pointer;
+  line-height: 1.8;
+  padding: 12px 30px 8px;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  white-space: normal;
+  background: 0px center rgb(121, 121, 121);
+  color: rgb(237, 222, 182);
+}
+
+.add-bag:hover {
+  color: #fff;
+}
+
+#add-bag {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  border: 1px solid rgb(121, 121, 121);
+  cursor: pointer;
+  line-height: 1.8;
+  padding: 12px 30px 8px;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  white-space: normal;
+  background: 0px center rgb(121, 121, 121);
+  color: rgb(237, 222, 182);
+}
+
+.decoration {
+  list-style: none;
+}
+
+#li-one::before {
+  content: url("../Images/circle-info-solid.svg");
+  width: 20px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#li-two::before {
+  content: url("../Images/phone-solid.svg");
+  width: 20px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#li-three::before {
+  content: url("../Images/calendar-check-regular.svg");
+  width: 20px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#li-four::before {
+  content: url("../Images/circle-plus-solid.svg");
+  width: 20px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#li-five::before {
+  content: url("../Images/calendar-check-regular.svg");
+  width: 20px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#li-six::before {
+  content: url("../Images/folder-closed-regular.svg");
+  width: 20px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#product-info {
+  width: 50%;
+  border-right: solid 1px gray;
+}

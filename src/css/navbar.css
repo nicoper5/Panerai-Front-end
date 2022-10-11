@@ -1,0 +1,144 @@
+.logo-panerai {
+  font-family: Helvetica;
+  color: #e8dbc5;
+  letter-spacing: 0.045rem;
+  transform: scale(1, 0.65);
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.logo-panerai:hover {
+  color: #e8dbc5;
+}
+
+.menu-text {
+  font-size: 1rem;
+}
+
+.collections-links {
+  text-decoration: none;
+  color: black;
+}
+
+.collections-links:hover {
+  color: black;
+}
+
+#nav-bag {
+  fill: white;
+  margin-bottom: 8px;
+  margin-left: 1em;
+}
+
+#about-project {
+  margin-left: 1em;
+}
+
+#nav-profile {
+  fill: white;
+  margin-bottom: 8px;
+  margin-left: 1em;
+}
+
+#bag-badge {
+  top: -0.8em;
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  margin-left: 2px;
+}
+
+@media (max-width: 991px) {
+  #bag-badge {
+    top: -1.1em;
+    left: -0.3em;
+    position: relative;
+    font-size: 75%;
+    line-height: 0;
+    vertical-align: baseline;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    margin-left: 2px;
+  }
+  #nav-bag {
+    margin-left: 10px;
+  }
+  #nav-profile {
+    margin-left: 10px;
+  }
+  .collection-dropDown {
+    margin-left: 10px;
+  }
+  .margin-bag {
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 436px) {
+  #bag-badge {
+    top: -1.1em;
+    left: -0.3em;
+    position: relative;
+    font-size: 75%;
+    line-height: 0;
+    vertical-align: baseline;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    margin-left: 2px;
+  }
+  #nav-bag {
+    margin-left: 10px;
+  }
+  #nav-profile {
+    margin-left: 10px;
+  }
+  .collection-dropDown {
+    margin-left: 10px;
+  }
+  .margin-bag {
+    margin-right: 30px;
+  }
+
+  #about-project {
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 407px) {
+  #bag-badge {
+    top: -1.1em;
+    left: -0.3em;
+    position: relative;
+    font-size: 75%;
+    line-height: 0;
+    vertical-align: baseline;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    margin-left: 2px;
+  }
+  #nav-bag {
+    margin-left: 5px;
+  }
+  #nav-profile {
+    margin-left: 10px;
+  }
+  .collection-dropDown {
+    margin-left: 1px;
+  }
+  .margin-bag {
+    margin-right: 10px;
+  }
+
+  #about-project {
+    margin-left: 5px;
+  }
+}
+
+.bag-padding {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 0px;
+}
